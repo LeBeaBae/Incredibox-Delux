@@ -6,7 +6,7 @@ Check out the original site https://www.incredibox.com.
 <br>
 <br>        
 <a href="https://houssemlachtar.github.io/Incredibox-Clone/">
-        <img alt="Incredibox-Clone.com" src="./img/DrumsItYourself.com.jpg" />
+        <img alt="Incredibox-Clone.com" src="./img/thumbnail.jpg" />
     </a>
 <br>
 <a href="https://houssemlachtar.github.io/Incredibox-Clone/">
