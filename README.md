@@ -1,7 +1,7 @@
 # Incredibox-Clone
 
 <p align="center">
-Deep clone to incredibox
+Deep clone to incredibox<br>
 Check out the original site https://www.incredibox.com.
 <br>
 <br>        
