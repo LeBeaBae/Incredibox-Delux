@@ -5,8 +5,7 @@
     <script src='js/libs/analytics.js'></script>
     <meta charset='utf-8'>
     <title>Incredibox</title>
-    <meta name='author' content='So Far So Good'>
-    <meta name='copyright' content='http://www.sofarsogood.fr'>
+    <meta name='author'>
     <meta name='format-detection' content='telephone=no'>
     <link rel='stylesheet' type='text/css' href='css/style.min.css'>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimal-ui">
@@ -158,23 +157,6 @@
                             </svg></div>
                         <div class='hitzone'></div>
                     </div>
-                    <div id='home-bt-list' class='bt bt-haut hoverLocked'>
-                        <div class='bck'><svg class='icn-svg'>
-                                <use xlink:href='#ic-mixlist'></use>
-                            </svg></div>
-                        <div class='txt'>Mixlist</div>
-                        <div class='ic-locked'><svg class='icn-svg'>
-                                <use xlink:href='#ic-lock'></use>
-                            </svg></div>
-                        <div class='hitzone'></div>
-                        <div class='notif'></div>
-                    </div>
-                    <div id='home-bt-album'>
-                        <div class='bck'><svg class='icn-svg'>
-                                <use xlink:href='#ic-mix'></use>
-                            </svg></div>
-                        <div class='hitzone'></div>
-                    </div>
                     <div id='home-bt-info' class='bt'>
                         <div class='bck'><svg class='icn-svg'>
                                 <use xlink:href='#ic-info'></use>
@@ -188,162 +170,6 @@
                         <div class='hitzone'></div>
                     </div>
                     <div id='home-dedicated'></div>
-                </div>
-                <div id='mixlist'>
-                    <div class='bac'></div>
-                    <div class='scale'>
-                        <div id='poplist'>
-                            <div class='tabbox'>
-                                <div class='tab icon' id='tab-latest'>
-                                    <div class='icon'><svg class='icn-svg'>
-                                            <use xlink:href='#ic-live-mini'></use>
-                                        </svg></div>
-                                    <div class='txt'>Latest</div>
-                                </div>
-                                <div class='tab icon' id='tab-top50'>
-                                    <div class='icon'><svg class='icn-svg'>
-                                            <use xlink:href='#ic-trophy-mini'></use>
-                                        </svg></div>
-                                    <div class='txt'>Top 50</div>
-                                </div>
-                                <div class='tab icon' id='tab-search'>
-                                    <div class='icon'><svg class='icn-svg'>
-                                            <use xlink:href='#ic-search-mini'></use>
-                                        </svg></div>
-                                    <div class='txt'>Search</div>
-                                </div>
-                                <div class='tab icon' id='tab-mixlist'>
-                                    <div class='icon'><svg class='icn-svg'>
-                                            <use xlink:href='#ic-mixlist-mini'></use>
-                                        </svg></div>
-                                    <div class='txt'>Mixlist</div>
-                                    <div class='notif'></div>
-                                </div>
-                            </div>
-                            <div class='scrollbox'>
-                                <div class='scroll filter' id='list-mymix'>
-                                    <div class='boxline'></div>
-                                    <div class='boxinfo'></div>
-                                    <div class='spinner-box spin'><svg class='icn-svg col-version'>
-                                            <use xlink:href='#ic-loader'></use>
-                                        </svg></div>
-                                </div>
-                                <div class='scroll filter' id='list-myfav'>
-                                    <div class='boxline'></div>
-                                    <div class='boxinfo'></div>
-                                    <div class='spinner-box spin'><svg class='icn-svg col-version'>
-                                            <use xlink:href='#ic-loader'></use>
-                                        </svg></div>
-                                </div>
-                                <div class='scroll' id='list-latest'>
-                                    <div class='boxline'></div>
-                                    <div class='boxinfo'></div>
-                                    <div class='spinner-box spin'><svg class='icn-svg col-version'>
-                                            <use xlink:href='#ic-loader'></use>
-                                        </svg></div>
-                                </div>
-                                <div class='scroll filter' id='list-day'>
-                                    <div class='boxline'></div>
-                                    <div class='boxinfo'></div>
-                                    <div class='spinner-box spin'><svg class='icn-svg col-version'>
-                                            <use xlink:href='#ic-loader'></use>
-                                        </svg></div>
-                                </div>
-                                <div class='scroll filter' id='list-week'>
-                                    <div class='boxline'></div>
-                                    <div class='boxinfo'></div>
-                                    <div class='spinner-box spin'><svg class='icn-svg col-version'>
-                                            <use xlink:href='#ic-loader'></use>
-                                        </svg></div>
-                                </div>
-                                <div class='scroll filter' id='list-month'>
-                                    <div class='boxline'></div>
-                                    <div class='boxinfo'></div>
-                                    <div class='spinner-box spin'><svg class='icn-svg col-version'>
-                                            <use xlink:href='#ic-loader'></use>
-                                        </svg></div>
-                                </div>
-                                <div class='scroll filter' id='list-year'>
-                                    <div class='boxline'></div>
-                                    <div class='boxinfo'></div>
-                                    <div class='spinner-box spin'><svg class='icn-svg col-version'>
-                                            <use xlink:href='#ic-loader'></use>
-                                        </svg></div>
-                                </div>
-                                <div class='scroll search' id='list-search'>
-                                    <div class='boxline'></div>
-                                    <div class='boxinfo'></div>
-                                    <div class='spinner-box spin'><svg class='icn-svg col-version'>
-                                            <use xlink:href='#ic-loader'></use>
-                                        </svg></div>
-                                </div>
-                            </div>
-                            <div class='boxfilter' id='searchbox'>
-                                <div class='tab-filter'>
-                                    <div class='bt-mini color' id='bt-name'>
-                                        <div class='txt'>DJ name</div>
-                                        <div class='hitzone'></div>
-                                    </div>
-                                    <div class='bt-mini color' id='bt-title'>
-                                        <div class='txt'>Mix title</div>
-                                        <div class='hitzone'></div>
-                                    </div>
-                                    <div class='bt-mini color' id='bt-dedi'>
-                                        <div class='txt'>Dedicated to</div>
-                                        <div class='hitzone'></div>
-                                    </div>
-                                </div>
-                                <form action='javascript:clickBtSearch()' method='post' target='_self'>
-                                    <div class='formline'><input type='text' id='input-search' name='input-search' placeholder='Search for a mix' value='' maxlength='26' autocomplete='off' autocorrect='off' spellcheck='false'></div>
-                                    <div class='bt search' id='bt-search'>
-                                        <div class='bck'><svg class='icn-svg'>
-                                                <use xlink:href='#ic-search'></use>
-                                            </svg></div>
-                                        <div class='hitzone'></div>
-                                    </div><input type='submit' style='visibility:hidden;position:absolute'>
-                                </form>
-                            </div>
-                            <div class='boxfilter' id='top50box'>
-                                <div class='tab-filter'>
-                                    <div class='bt-mini color' id='bt-day'>
-                                        <div class='txt'>Day</div>
-                                        <div class='hitzone'></div>
-                                    </div>
-                                    <div class='bt-mini color' id='bt-week'>
-                                        <div class='txt'>Week</div>
-                                        <div class='hitzone'></div>
-                                    </div>
-                                    <div class='bt-mini color' id='bt-month'>
-                                        <div class='txt'>Month</div>
-                                        <div class='hitzone'></div>
-                                    </div>
-                                    <div class='bt-mini color' id='bt-year'>
-                                        <div class='txt'>Year</div>
-                                        <div class='hitzone'></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class='boxfilter' id='mixlistbox'>
-                                <div class='tab-filter'>
-                                    <div class='bt-mini color' id='bt-mymix'>
-                                        <div class='icn-box'><svg class='icn-svg'>
-                                                <use xlink:href='#ic-user-mini'></use>
-                                            </svg></div>
-                                        <div class='txt'>My mix</div>
-                                        <div class='hitzone'></div>
-                                        <div class='notif'></div>
-                                    </div>
-                                    <div class='bt-mini color' id='bt-myfav'>
-                                        <div class='icn-box'><svg class='icn-svg'>
-                                                <use xlink:href='#ic-rate-mini'></use>
-                                            </svg></div>
-                                        <div class='txt'>My Fav</div>
-                                        <div class='hitzone'></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
                 <div class='box-popup' id='pop-switch'>
                     <div class='bac'></div>
@@ -429,25 +255,6 @@
                         </div>
                     </div>
                 </div>
-                <div class='box-popup' id='pop-album'>
-                    <div class='bac'></div>
-                    <div class='flex'>
-                        <div class='scale'>
-                            <div class='box'>
-                                <div class='pop'>
-                                    <div id='img-album'><img src='img/popup-album.png' width='600' height='350'></div>
-                                    <div class='container'>
-                                        <div class='text'>Discover a remastered collection of the 7 versions of Incredibox for its 10th anniversary. Listen to the grooves right now!</div>
-                                        <div class='bt-mini light' id='bt-album'>
-                                            <div class='txt'>Listen the album</div>
-                                            <div class='hitzone'></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
                 <div class='box-popup with-tab' id='pop-info'>
                     <div class='bac'></div>
                     <div class='flex'>
@@ -455,8 +262,6 @@
                             <div class='box'>
                                 <div class='box-tab'>
                                     <div class='tab' id='tab-tuto'>Help</div>
-                                    <div class='tab' id='tab-credit'>Credits</div>
-                                    <div class='tab' id='tab-follow'>Follow</div>
                                 </div>
                                 <div class='pop' id='pop-tuto'>
                                     <div class='container'>
@@ -508,77 +313,6 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class='pop' id='pop-credit'>
-                                    <div class='container'>
-                                        <div class='logo'></div>
-                                        <div class='text' id='copy'>Created by SO FAR SO GOOD<br>Copyright © 2019 SO FAR SO GOOD. All rights reserved.</div>
-                                        <hr>
-                                        <div class='text moyen' id='team'>Allan Durand: Director, code &amp; animation
-                                            <br>Romain Delambily: Design &amp; illustration<br>Incredible Polo: Music &amp; sound design</div>
-                                        <hr>
-                                        <div class='bt-mini light bt-ic' id='bt-feedback'>
-                                            <div class='icn-box'><svg class='icn-svg'>
-                                                    <use xlink:href='#ic-mail'></use>
-                                                </svg></div>
-                                            <div class='txt'>Feedback</div>
-                                            <div class='hitzone'></div>
-                                        </div>
-                                        <div class='bt-mini light bt-ic' id='bt-faq'>
-                                            <div class='icn-box'><svg class='icn-svg'>
-                                                    <use xlink:href='#ic-help'></use>
-                                                </svg></div>
-                                            <div class='txt'>FAQ</div>
-                                            <div class='hitzone'></div>
-                                        </div>
-                                        <div class='bt-mini light bt-ic' id='bt-rating'>
-                                            <div class='icn-box'><svg class='icn-svg'>
-                                                    <use xlink:href='#ic-rate'></use>
-                                                </svg></div>
-                                            <div class='txt'>Rating</div>
-                                            <div class='hitzone'></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class='pop' id='pop-follow'>
-                                    <div class='container'>
-                                        <div class='title' id='git'>Get in touch</div>
-                                        <div class='btbox'>
-                                            <div class='bt facebook color'>
-                                                <div class='bck'><svg class='icn-svg'>
-                                                        <use xlink:href='#ic-facebook'></use>
-                                                    </svg></div>
-                                                <div class='hitzone'></div>
-                                            </div>
-                                            <div class='bt twitter color'>
-                                                <div class='bck'><svg class='icn-svg'>
-                                                        <use xlink:href='#ic-twitter'></use>
-                                                    </svg></div>
-                                                <div class='hitzone'></div>
-                                            </div>
-                                            <div class='bt instagram color'>
-                                                <div class='bck'><svg class='icn-svg'>
-                                                        <use xlink:href='#ic-instagram'></use>
-                                                    </svg></div>
-                                                <div class='hitzone'></div>
-                                            </div>
-                                            <div class='bt youtube color'>
-                                                <div class='bck'><svg class='icn-svg'>
-                                                        <use xlink:href='#ic-youtube'></use>
-                                                    </svg></div>
-                                                <div class='hitzone'></div>
-                                            </div>
-                                            <div class='bt tumblr color'>
-                                                <div class='bck'><svg class='icn-svg'>
-                                                        <use xlink:href='#ic-tumblr'></use>
-                                                    </svg></div>
-                                                <div class='hitzone'></div>
-                                            </div>
-                                        </div>
-                                        <hr>
-                                        <div class='title' id='shop'>Shop</div>
-                                        <div id='img-shop'><img src='img/shop-img.png' width='525' height='180'></div>
-                                    </div>
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -608,53 +342,6 @@
                                                 <div class='hitzone'></div>
                                             </div>
                                         </div>
-                                        <hr>
-                                        <div class='paramline' id='param-safe'><span class='label'>Safe mode (parental
-                                                control)</span> <span class='ic-info'><svg class='icn-svg'>
-                                                    <use xlink:href='#ic-help'></use>
-                                                </svg>
-                                                <div class='hitzone'></div>
-                                            </span>
-                                            <div class='bt-mini bt-onoff hoverLocked'>
-                                                <div class='slider'></div>
-                                                <div class='ic-locked'><svg class='icn-svg'>
-                                                        <use xlink:href='#ic-lock'></use>
-                                                    </svg></div>
-                                                <div class='hitzone'></div>
-                                            </div>
-                                        </div>
-                                        <hr>
-                                        <div class='paramline' id='param-reset'><span class='label'>Reset bonuses
-                                                progression</span> <span class='ic-info'><svg class='icn-svg'>
-                                                    <use xlink:href='#ic-help'></use>
-                                                </svg>
-                                                <div class='hitzone'></div>
-                                            </span>
-                                            <div class='bt-mini light hoverLocked'>
-                                                <div class='txt'>Reset</div>
-                                                <div class='ic-locked'><svg class='icn-svg'>
-                                                        <use xlink:href='#ic-lock'></use>
-                                                    </svg></div>
-                                                <div class='hitzone'></div>
-                                            </div>
-                                        </div>
-                                        <hr>
-                                        <div class='paramline' id='param-recover'><span class='label'>Recover all
-                                                mixes</span> <span class='ic-info'><svg class='icn-svg'>
-                                                    <use xlink:href='#ic-help'></use>
-                                                </svg>
-                                                <div class='hitzone'></div>
-                                            </span>
-                                            <div class='bt-mini light hoverLocked'>
-                                                <div class='txt'>Recover</div>
-                                                <div class='ic-locked'><svg class='icn-svg'>
-                                                        <use xlink:href='#ic-lock'></use>
-                                                    </svg></div>
-                                                <div class='hitzone'></div>
-                                            </div>
-                                        </div>
-                                        <hr>
-                                        <div class='text mini'>Version 0.5.4</div>
                                     </div>
                                 </div>
                             </div>
