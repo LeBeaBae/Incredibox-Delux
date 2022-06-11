@@ -12,8 +12,49 @@
     <link rel="icon" href="Incredibox-logo.png" type="image/x-icon">
 
 </head>
+    
+    <style type="text/css">
+    .mobileShow {
+        display: none;
+    }
+    /* Smartphone Portrait and Landscape */
+    
+    @media only screen and (min-width: 0px) and (max-width: 480px) {
+        .mobileShow {
+            display: inline;
+        }
+    }
+    
+    @media only screen and (min-device-width: 0px) and (max-device-width: 767px) {
+        .mobileShow {
+            display: inline;
+        }
+    }
+</style>
+<style type="text/css">
+    .mobileHide {
+        display: inline;
+    }
+    /* Smartphone Portrait and Landscape */
+    
+    @media only screen and (min-width: 0px) and (max-width: 480px) {
+        .mobileHide {
+            display: none;
+        }
+    }
+    
+    @media only screen and (min-device-width: 0px) and (max-device-width: 767px) {
+        .mobileHide {
+            display: none;
+        }
+    }
+</style>
+<div class="mobileShow" style="position: absolute; top: 50%;left: 50%; transform:translate(-50%, -50%)">
+    Please view on desktop.
+</div>
 
 <body>
+    <div class="mobileHide">
     <div id='app-incredibox'>
         <div id='content'>
             <div id='page-splash'>
@@ -715,6 +756,7 @@
             </symbol>
         </defs>
     </svg>
+    </div>
 </body>
 
 </html>
