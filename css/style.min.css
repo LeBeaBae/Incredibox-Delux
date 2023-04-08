@@ -5,7 +5,7 @@
     --col2: #4b4b4b;
     --col3: #373737;
     --col4: #232323;
-    --darkmode-bck: #020c26
+    --darkmode-bck: #111
 }
 
 .darkmode ::-webkit-scrollbar {
@@ -13,11 +13,11 @@
 }
 
 .darkmode ::-webkit-scrollbar-track {
-    background: #000127
+    background: #333
 }
 
 .darkmode ::-webkit-scrollbar-thumb {
-    background: #000839
+    background: #444
 }
 
 .darkmode ::-webkit-scrollbar-thumb:hover {
